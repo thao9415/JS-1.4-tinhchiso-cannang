@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chỉ số BMI</title>
+</head>
+<body>
+<script>
+    let weight=parseFloat(prompt("Xin mời nhập cân nặng:"));
+    let height=parseFloat(prompt("Xin mời nhập chiều cao:"));
+    a=height*height;
+    bmi=weight/a;
+    if(bmi<18.5) {
+        alert("Tít tít!!!!Bạn quá gầy");
+    }else if (bmi<25) {
+        alert("Cơ thể hoàn toàn bình thường");
+    }else if(bmi<30) {
+        alert("Mũm mĩm dễ thương");
+    }else {
+        alert("Mập rui đó bạn ơi");
+    }
+    alert(bmi);
+</script>
+</body>
+</html>
